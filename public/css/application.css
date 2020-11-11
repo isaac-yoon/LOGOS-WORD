@@ -1,0 +1,46 @@
+html {
+  background-color: maroon;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+button:focus {
+  outline: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+#footer-msg {
+  padding: 5px;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+}
+
+#links a {
+  margin: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+#links a img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.6;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}

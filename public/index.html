@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LOGOS-word</title>
+    <meta property="og:title" content="LOGOS-word" />
+    <meta property="og:description" content="Fill in the word game with bible verses" />
+    <!-- <meta property="og:image" content="" /> -->
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <script type="text/javascript" src="./bundle.js"></script>
+  </head>
+
+  <body id="page-layout">
+    <!-- MODALS -->
+    <div class="modal" id="start-modal">
+      <div class="modal-child" id="start-game-modal-child">
+        <div class="start-game-modal-message">
+          <div>
+            Welcome!
+          </div>
+
+          <div>
+            <div class="modal-text">INTRODUCTION</div></br>
+            <p>
+              Whether you're a devout believer or a critical skeptic or somewhere in between or indifferent, it is undeniable that the Bible has influenced Western civilization.
+              Portions of thte Bible has been around for at least 2000 years, a time period that most of us cannot begin to imagine (Google has only been around for 20). 
+              Not to mention, year by year, decade by decade, century by century, the Bible for the most part was, is, and probably will be for the most part the #1 bestseller by a wide margin (so much so that the New York Times bestseller list omits it in fairness for other books). But why is it so popular?
+              See for yourself as you take this journey through some curated verses.
+            </p>
+            </br>
+            <div class="modal-text">INSTRUCTIONS</div></br>
+            <p>
+              Your goal is to fill in the blanks! Press the BEGIN button below to close this window.
+              After this window closes, click on the white box or press any key to begin.
+              Type a word in the input box and press enter to submit your answer.
+              You can also use the hint button to display the hidden word, letter by letter.
+              Remember, the number of dashes signifies the number of characters you need to fill.
+              Also, punctuation counts as a character in this game.
+              If you want to see these instructions again, click the instructions button.
+            </p>
+          </div>
+        </div>
+
+        <button id="start-game-modal-close">BEGIN</button>
+        <div id="side-note">*all verses are taken from the Bible</div>
+
+      </div>
+    </div>
+
+    <div id="word-title"> יֵשׁוּעַ (λογότυπα) χριστός</div>
+    <canvas id="word-canvas"></canvas>
+    <div id="navigation-bar">
+      <button id="hint-button">HINT</button>
+      <button id="restart-button">RESTART</button>
+      <button id="instructions-button">INSTRUCTIONS</button>
+    </div>
+    <input id="word-input"></input>
+
+    <footer></footer>
+  </body>
+</html>
